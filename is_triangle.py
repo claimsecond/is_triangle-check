@@ -14,7 +14,7 @@ def read_input_from_file(filename):
 
 
 if __name__ == "__main__":
-    lines = read_input_from_file("C:\\Users\\claim\\Documents\\Pairwise.txt")
+    lines = read_input_from_file("Pairwise.txt")
     for line in lines:
         a, b, c = map(int, line.strip().split())
         result = is_triangle(a, b, c)
